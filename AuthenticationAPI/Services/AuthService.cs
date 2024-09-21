@@ -1,6 +1,4 @@
-﻿using AuthenticationAPI.Interfaces;
-
-namespace AuthenticationAPI.Services;
+﻿namespace AuthenticationAPI.Services;
 
 public class AuthService : IAuthService
 {

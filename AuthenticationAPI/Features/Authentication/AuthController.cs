@@ -1,7 +1,4 @@
-﻿using AuthenticationAPI.Interfaces;
-using AuthenticationAPI.Models;
-
-namespace AuthenticationAPI.Features.Authentication;
+﻿namespace AuthenticationAPI.Features.Authentication;
 
 [Route("api/[action]")]
 [ApiController]
