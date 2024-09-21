@@ -1,4 +1,4 @@
-﻿namespace AYASOMPO.MotorAutomation.Db;
+﻿namespace AuthenticationAPI.Db;
 
 public class AppDbContext : DbContext
 {

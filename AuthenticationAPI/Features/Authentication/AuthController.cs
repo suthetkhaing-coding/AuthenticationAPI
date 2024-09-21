@@ -1,11 +1,14 @@
-﻿namespace AYASOMPO.MotorAutomation.Features.Authentication;
+﻿using AuthenticationAPI.Interfaces;
+using AuthenticationAPI.Models;
+
+namespace AuthenticationAPI.Features.Authentication;
 
 [Route("api/[action]")]
 [ApiController]
 public class AuthController : ControllerBase
 {
     private readonly IConfiguration _config;
-    private readonly IAuthService _authService; 
+    private readonly IAuthService _authService;
 
     public AuthController(IConfiguration config, IAuthService authService)
     {

@@ -1,4 +1,4 @@
-﻿namespace AYASOMPO.MotorAutomation.Interfaces;
+﻿namespace AuthenticationAPI.Interfaces;
 
 public interface IAuthService
 {

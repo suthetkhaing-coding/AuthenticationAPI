@@ -1,6 +1,6 @@
-@AYASOMPO.MotorAutomation_HostAddress = http://localhost:5219
+@AuthenticationAPI_HostAddress = http://localhost:5219
 
-GET {{AYASOMPO.MotorAutomation_HostAddress}}/weatherforecast/
+GET {{AuthenticationAPI_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

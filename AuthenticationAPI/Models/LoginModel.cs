@@ -1,4 +1,4 @@
-﻿namespace AYASOMPO.MotorAutomation.Models;
+﻿namespace AuthenticationAPI.Models;
 
 public class LoginModel
 {
