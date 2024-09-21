@@ -1,0 +1,15 @@
+﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authorization;
+global using AYASOMPO.MotorAutomation.Interfaces;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using AYASOMPO.MotorAutomation.Models;
+global using AYASOMPO.MotorAutomation.Db;
+global using AYASOMPO.MotorAutomation.Services;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Serilog.Sinks.MSSqlServer;
+global using Serilog;
+global using System.Text.Json;
